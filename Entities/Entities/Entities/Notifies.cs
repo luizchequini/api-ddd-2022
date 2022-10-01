@@ -23,7 +23,7 @@ namespace Entities.Entities
         [NotMapped]
         public List<Notifies> Notificacoes { get; set; }
 
-        public bool ValidadrPropriedadeString(string valor, string nomePropriedade)
+        public bool ValidadrPropriedadeString(string? valor, string nomePropriedade)
         {
             if(string.IsNullOrWhiteSpace(valor) || string.IsNullOrWhiteSpace(nomePropriedade))
             {
